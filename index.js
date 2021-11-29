@@ -5,6 +5,10 @@ function increment(){
     count=count+1
     countEl.textContent=count
 }
+function decrement(){
+    count=count-1
+    countEl.textContent=count
+}
 function save(){
     intial.textContent+=+" "+count+" - "
     count=0

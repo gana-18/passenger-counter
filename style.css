@@ -7,7 +7,7 @@ body{
     font-family: 'JetBrains Mono', monospace;
     text-align:center;
     font-size:20px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(3px);
 }
 .main{
     display:flex;
@@ -33,7 +33,10 @@ button:hover{
     transform:scale(1.09);
 }
 #increment-btn{
-    background-color: turquoise;
+    background-color:cornflowerblue ;
+}
+#decrement-btn{
+    background-color:turquoise;
 }
 #save-btn{
    background-color: cornsilk;
@@ -41,4 +44,7 @@ button:hover{
 #p{
     margin:25px;
     color:#05386B;
+}
+#c{
+    text-decoration:underline;
 }
